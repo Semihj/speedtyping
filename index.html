@@ -5,7 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
-    <script  >
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="quote" id="quote" >
+            
+        </div>
+        <div class="input">
+        <textarea name="quotetyping" class="quotetype" autofocus  id="quoteInput" cols="30" rows="10" placeholder="write your quote" ></textarea>
+    </div></div>
+       <script  >
         const RANDOM_QUOTE_API_URL = 'http://api.quotable.io/random'
 
 const quoteInput = document.getElementById("quoteInput");
@@ -66,14 +76,5 @@ function getRandomQuote() {
     
 }
     </script>
-</head>
-<body>
-    <div class="container">
-        <div class="quote" id="quote" >
-            
-        </div>
-        <div class="input">
-        <textarea name="quotetyping" class="quotetype" autofocus  id="quoteInput" cols="30" rows="10" placeholder="write your quote" ></textarea>
-    </div></div>
 </body>
 </html>
